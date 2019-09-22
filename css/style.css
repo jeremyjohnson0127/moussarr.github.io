@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Lemon');
+
+header, main, nav, footer, figure, figcaption, aside, section, article {
+  display: block;
+}
+
+body {
+  font-family: 'Lemon', cursive;
+  margin: 0px;
+}
+
+main {
+  padding-top: 0px;
+  /*width: 100vw;*/
+}
+
+#welcome-section {
+  height: 100vh;
+  background-color: #EBDEF0;
+  background-image: url('../images/workspace80.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  color: #003040;
+}
+
+h1 .lastname {
+  color:#003040;
+}
+
+.intro-1 {
+  font-size: 24px;
+  text-align: center;
+  color: #003044;
+}
+
+.intro-2 {
+  font-size: 28px;
+  text-align: center;
+  color: #2471A3;
+}
+
+.project-tile {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px solid #2980B9;
+  text-decoration: none;
+}
+
+.project-tile:hover {
+  border: 2px dashed #CB4335;
+}
+
+.caption {
+  /*border: 2px solid #9B59B6;*/
+  width: 350px;
+  text-align: center;
+}
+
+.img-1 {
+  width: 350px;
+  /*border: 2px solid #9B59B6;*/
+}
+
+#projects {
+  margin-top: 50px;
+  padding: 50px;
+  padding-bottom: 20px;;
+}
+
+#contain-thubnails {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#profile-link {
+  display: block;
+  background-color: #A9CCE3;
+  width: 200px;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  border: 2px solid #2980B9;
+}
+
+#profile-link:hover {
+  transform: scale(1.1);
+}
+
+#contact {
+  height: 100vh;
+  background-color: #82E0AA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.link-social {
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  height: auto;
+  padding: 10px;
+  border: 2px solid #2980B9;
+  text-align: center;
+  margin: auto;
+  background-color: #A9CCE3;
+  border-radius: 5px;
+}
+
+.link-social:hover {
+  transform: scale(1.1);
+}
+  
+@media only screen and (max-width: 37.5em) {
+
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  nav {
+  padding: 0;
+  }
+
+  nav a {
+    display: block
+    font-size: 22px;
+  }
+
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #003050;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  align-items: center;
+}
+
+nav a {
+  color:#CCCCCC;
+}
+
+.link-nav {
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+}
+
+.link-nav:hover {
+  transform: scale(1.1);
+
