@@ -104,7 +104,7 @@ h1 .lastname {
 }
 
 #contact {
-  height: 100vh;
+  height: 50vh;
   background-color: #82E0AA;
   display: flex;
   flex-direction: column;
